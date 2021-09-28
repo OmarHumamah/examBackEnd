@@ -14,7 +14,7 @@ server.use(cors());
 
 server.use(express.json());
 
-let PORT = 3001;
+let PORT = process.env.PORT;
 
 const mongoose = require('mongoose');
 
